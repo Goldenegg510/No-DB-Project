@@ -1,1 +1,82 @@
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  background-color: rgb(0, 0, 109);
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+}
+.companyName{
+  font-weight: 700;
+  color: rgb(168, 0, 0);
+  text-decoration: underline rgb(174, 174, 255);
+  font-family: cursive;
+}
+.pageTitle{
+  color: rgb(160, 160, 160);
+  margin-bottom: 5px;
+}
+.jobInput{
+  padding-top: 10px;
+  width: 25vw;
+  height: 68vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.jobInfo{
+  display: flex;
+}
+.jobDiv{
+  display: flex;
+  background: rgb(71, 71, 235);
+  height: 88vh;
+}
+.workNeeded{
+  width:50vw;
+  height: 68vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 25vw;
+  height: 63vh;
+  
+}
+.columnDiv{
+  display: flex;
+}
+.numBox{
+  width:30px;
+}
+.imageInputs{
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 25vw;
+  height:68vh;
+}
+.create{
+  
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 60px;
+  background-color:rgb(167, 167, 167);
+}

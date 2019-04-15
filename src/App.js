@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
-import axios from 'axios'
-
+import Jobs from './Components/Jobs'
 
 class App extends Component {
-  
+  createJob(){}
   render() {
     return (
       <div className="App">
-        
+        <Jobs />
       </div>
-    );
+    )
   }
 }
 
